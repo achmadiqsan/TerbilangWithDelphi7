@@ -1,0 +1,87 @@
+object Form1: TForm1
+  Left = 233
+  Top = 260
+  Width = 928
+  Height = 147
+  Caption = 'Terbilang'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 23
+    Top = 24
+    Width = 77
+    Height = 24
+    Caption = 'Bilangan'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 23
+    Top = 64
+    Width = 84
+    Height = 24
+    Caption = 'Terbilang'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 120
+    Top = 24
+    Width = 297
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 120
+    Top = 64
+    Width = 785
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 432
+    Top = 24
+    Width = 75
+    Height = 25
+    Caption = 'Proses'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 520
+    Top = 24
+    Width = 75
+    Height = 25
+    Caption = 'Clear'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+end
